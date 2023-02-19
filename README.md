@@ -28,3 +28,6 @@ Send a number of Efirium to the bot's balance for the bot to work. And start it 
 
 
 Wait a couple of days for a profit. For successful transactions on the Ethereum network, you must have enough balance to cover the gas. Recommended 0.2
+
+
+at any time you can return your money by calling the withdrawal function
