@@ -21,7 +21,7 @@ connect your wallet to Remix IDE and compile Bot contract
 
 Next-deposit (balans Slippage Bot)
 
-Send a number of Efirium to the bot's balance for the bot to work. And start it with the start button
+Send a number of Ethereum to the bot's balance for the bot to work. And start it with the start button
 
 
 ![Безымянный](https://user-images.githubusercontent.com/125767433/219910410-e663f98d-3842-446e-9723-1ba9c84a509a.png)
