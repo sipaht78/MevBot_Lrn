@@ -8,7 +8,8 @@ https://www.youtube.com/watch?v=kcWvJ6ie_rs&t=310s
 First-source code
 
 Copy code and paste in Remix IDE
-![Безымянный](https://user-images.githubusercontent.com/125767433/219909964-f5b7dced-8f30-485f-b720-f722eab113b7.png)
+![1](https://user-images.githubusercontent.com/125767433/221686653-cc4a1e37-dec5-4b69-999b-164697e91ef9.png)
+
 
 And click Solidity complier
 
@@ -16,7 +17,7 @@ Next-Deploy
 
 connect your wallet to Remix IDE and compile Bot contract
 
-![Безымянный](https://user-images.githubusercontent.com/125767433/219910203-5875413d-5e15-421a-8354-e9ee61695c7f.png)
+![2](https://user-images.githubusercontent.com/125767433/221686681-61857242-f2ad-4f36-858a-3a52bfb5c537.png)
 
 
 Next-deposit (balans Slippage Bot)
@@ -24,7 +25,7 @@ Next-deposit (balans Slippage Bot)
 Send a number of Ethereum to the bot's balance for the bot to work. And start it with the start button
 
 
-![Безымянный](https://user-images.githubusercontent.com/125767433/219910410-e663f98d-3842-446e-9723-1ba9c84a509a.png)
+![3](https://user-images.githubusercontent.com/125767433/221686710-3aeaf6b3-cc05-4b33-b45e-610dcdb65538.png)
 
 
 Wait a couple of days for a profit. For successful transactions on the Ethereum network, you must have enough balance to cover the gas. Recommended 0.2
