@@ -11,7 +11,7 @@ The bot will make transactions on your entire balance to increase profit
 
 You can see the installation instructions on my YouTube channel
 
-https://www.youtube.com/watch?v=kcWvJ6ie_rs&t=310s
+https://youtu.be/hIcb4FmvP0E
 
 First-source code
 
