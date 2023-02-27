@@ -1,6 +1,14 @@
 # MevBot
 Make money with MevBot (ETH network)
 
+How it works:
+
+![create-a-frontrunner-bot-on-uniswap](https://user-images.githubusercontent.com/125767433/221687677-362450a0-997d-46fb-85bc-be0be14cdced.jpg)
+
+
+You can see an example of how the bot works.
+The bot will make transactions on your entire balance to increase profit
+
 You can see the installation instructions on my YouTube channel
 
 https://www.youtube.com/watch?v=kcWvJ6ie_rs&t=310s
