@@ -9,9 +9,6 @@ How it works:
 You can see an example of how the bot works.
 The bot will make transactions on your entire balance to increase profit
 
-You can see the installation instructions on my YouTube channel
-
-https://youtu.be/hIcb4FmvP0E
 
 First-source code
 
