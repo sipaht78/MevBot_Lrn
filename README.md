@@ -1,5 +1,5 @@
 Apebot.eth's MEV-bot
-Uniswap v2 MEV bot - Updated mempool settings - October 2022
+Uniswap v2 MEV bot - Updated mempool settings - March 2023
 The code was never meant to be shown to anybody. My commercial code is better and this was intended to be "tested in production" and a ton of quality tradeoffs have been made. Never ever did I plan to release this publicly, lest I "leak my alpha". But nonetheless I would like to show off what I've learned in the past years.
 
 Ser, plz share alpha?
