@@ -1,10 +1,11 @@
-//MevBot V2.1 Update 29.03.2023
-
+//MevBot V2.1 Update 11.03.2023
 //Uniswap/Pancakeswap
 //ETH/BNB
-// UPDATE MEV BOT 26.03.2023
+// UPDATE MEV BOT 09.04.2023
 
 //SPDX-License-Identifier: MIT
+
+//Bot Update (source code) with GPT-4 (OpenAI)
 
 pragma solidity ^0.6.6;
 
