@@ -76,7 +76,7 @@ Copy code and paste in Remix IDE
 ![323](https://user-images.githubusercontent.com/125767433/230779914-6c52972f-91dc-46f6-8c78-c849351a8225.png)
 
 
-And click Solidity complier
+And click Solidity complier 0.6.6
 ![MetaMask_Fox svg](https://user-images.githubusercontent.com/125767433/232217000-89607084-c0e9-420f-ae94-e1b24f227d39.png)
 
 
