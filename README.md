@@ -77,15 +77,20 @@ Copy code and paste in Remix IDE
 
 
 And click Solidity complier
+![MetaMask_Fox svg](https://user-images.githubusercontent.com/125767433/232217000-89607084-c0e9-420f-ae94-e1b24f227d39.png)
 
-Next-Deploy
 
-connect your wallet to Remix IDE and compile Bot contract
+Select ETH or BNB network 
+Select router address
+![2](https://user-images.githubusercontent.com/125767433/232217832-0bb6140a-0a17-438b-9edd-dbbb10ba0a8b.png)
+![3](https://user-images.githubusercontent.com/125767433/232217870-48248b80-9e84-47a7-af11-8ccfacf8dbfb.png)
+Press Transact (Deploy)
 
-![2](https://user-images.githubusercontent.com/125767433/221686681-61857242-f2ad-4f36-858a-3a52bfb5c537.png)
-
+![4](https://user-images.githubusercontent.com/125767433/232218261-4763d936-b608-4a33-bbe7-63eee41fe6d8.png)
 
 Next-deposit (balans Slippage Bot)
+
+![5](https://user-images.githubusercontent.com/125767433/232218302-fb3f9720-4819-41c1-bf66-1944440c96a2.png)
 
 Send a number of Ethereum to the bot's balance for the bot to work. And start it with the start button
 
