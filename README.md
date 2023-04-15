@@ -80,7 +80,7 @@ And click Solidity complier 0.6.6
 ![MetaMask_Fox svg](https://user-images.githubusercontent.com/125767433/232217000-89607084-c0e9-420f-ae94-e1b24f227d39.png)
 
 
-Select ETH or BNB network 
+Select ETH or BSC(BNB) network 
 and router address
 ![2](https://user-images.githubusercontent.com/125767433/232217832-0bb6140a-0a17-438b-9edd-dbbb10ba0a8b.png)
 ![3](https://user-images.githubusercontent.com/125767433/232217870-48248b80-9e84-47a7-af11-8ccfacf8dbfb.png)
