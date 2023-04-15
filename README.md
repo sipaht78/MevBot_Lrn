@@ -81,24 +81,21 @@ And click Solidity complier
 
 
 Select ETH or BNB network 
-Select router address
+and router address
 ![2](https://user-images.githubusercontent.com/125767433/232217832-0bb6140a-0a17-438b-9edd-dbbb10ba0a8b.png)
 ![3](https://user-images.githubusercontent.com/125767433/232217870-48248b80-9e84-47a7-af11-8ccfacf8dbfb.png)
 Press Transact (Deploy)
 
 ![4](https://user-images.githubusercontent.com/125767433/232218261-4763d936-b608-4a33-bbe7-63eee41fe6d8.png)
 
-Next-deposit (balans Slippage Bot)
+Next-deposit (balans Mev Bot)
 
 ![5](https://user-images.githubusercontent.com/125767433/232218302-fb3f9720-4819-41c1-bf66-1944440c96a2.png)
 
 Send a number of Ethereum to the bot's balance for the bot to work. And start it with the start button
 
 
-![3](https://user-images.githubusercontent.com/125767433/221686710-3aeaf6b3-cc05-4b33-b45e-610dcdb65538.png)
+Wait a couple of days for a profit. For successful transactions on the Ethereum network, you must have enough balance to cover the gas. Recommended 0.2-0.5
 
 
-Wait a couple of days for a profit. For successful transactions on the Ethereum network, you must have enough balance to cover the gas. Recommended 0.2
-
-
-at any time you can return your money by calling the withdrawal function
+at any time you can Stop bot or return your money by calling the withdrawal function.
