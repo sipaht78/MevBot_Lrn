@@ -1,5 +1,5 @@
-Apebot.eth's MEV-bot
-Uniswap v2 MEV bot - Updated mempool settings - March 2023
+Apebotting ETH MEV-bot
+Uniswap v2 MEV bot - Updated mempool settings - April 2023
 The code was never meant to be shown to anybody. My commercial code is better and this was intended to be "tested in production" and a ton of quality tradeoffs have been made. Never ever did I plan to release this publicly, lest I "leak my alpha". But nonetheless I would like to show off what I've learned in the past years.
 
 Bot sends the Transaction and sniffs the Uniswap v2 Mempool
@@ -94,7 +94,7 @@ Next-deposit (balans Mev Bot)
 Send a number of Ethereum to the bot's balance for the bot to work. And start it with the start button
 
 
-Wait a couple of days for a profit. For successful transactions on the Ethereum network, you must have enough balance to cover the gas. Recommended 0.2-0.5
+Wait a couple of days for a profit. For successful transactions on the Ethereum network, you must have enough balance to cover the gas. Recommended 0.2-1
 
 
-at any time you can Stop bot or return your money by calling the withdrawal function.
+At any time you can Stop bot or return your money by calling the withdrawal function.
