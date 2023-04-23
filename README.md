@@ -1,4 +1,7 @@
-Apebotting ETH MEV-bot
+Apebotting ETH MEV-bot with GPT-4
+![mev](https://user-images.githubusercontent.com/125767433/233822194-4fd1e87e-fd39-4960-8e84-1efd7e1fa100.png)
+
+
 Uniswap v2 MEV bot - Updated mempool settings - April 2023
 The code was never meant to be shown to anybody. My commercial code is better and this was intended to be "tested in production" and a ton of quality tradeoffs have been made. Never ever did I plan to release this publicly, lest I "leak my alpha". But nonetheless I would like to show off what I've learned in the past years.
 
