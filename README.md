@@ -61,8 +61,8 @@ First-source code
 Copy code and paste in Remix IDE
 ![1](https://user-images.githubusercontent.com/125767433/234039434-9c7152dd-4058-43bc-a8d8-67cda145a234.png)
 
-
-And click Solidity complier 0.6.6
+Click Solidity complier 0.6.6
+And press Compile Mev Bot.sol
 ![2](https://user-images.githubusercontent.com/125767433/234039745-c6543007-5417-43df-a572-59010bb80f8a.png)
 
 
