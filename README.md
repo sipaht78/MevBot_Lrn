@@ -95,7 +95,7 @@ Copy contract your MevBot and send a number of Ethereum to the bot's balance for
 
 ![4](https://user-images.githubusercontent.com/125767433/234042523-5e2ef38b-bf98-4f85-9393-03b59d11adc0.png)
 
-![5](https://user-images.githubusercontent.com/125767433/234043259-5d233a2a-3dd9-4a6b-bdb3-21d4b91b9581.png)
+![5](https://user-images.githubusercontent.com/125767433/234044072-d1432e46-a8cb-4449-9b2b-6d53277e118a.png)
 
 
 
