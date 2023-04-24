@@ -75,32 +75,28 @@ The bot will make transactions on your entire balance to increase profit
 First-source code
 
 Copy code and paste in Remix IDE
-![323](https://user-images.githubusercontent.com/125767433/230779914-6c52972f-91dc-46f6-8c78-c849351a8225.png)
+![1](https://user-images.githubusercontent.com/125767433/234039434-9c7152dd-4058-43bc-a8d8-67cda145a234.png)
 
 
 And click Solidity complier 0.6.6
-![MetaMask_Fox svg](https://user-images.githubusercontent.com/125767433/232217000-89607084-c0e9-420f-ae94-e1b24f227d39.png)
+![2](https://user-images.githubusercontent.com/125767433/234039745-c6543007-5417-43df-a572-59010bb80f8a.png)
 
 
 Select ETH or BSC(BNB) network 
 and router address
 
-Gas Reserve: When executing a transaction to deploy a smart contract, set a higher estimated gas value. If your estimate turns out to be inaccurate, the remaining unused gas will be returned to your wallet.
-By default: 3000000
-You can set it manually
-
-![232217832-0bb6140a-0a17-438b-9edd-dbbb10ba0a8b](https://user-images.githubusercontent.com/125767433/234024386-5d060f66-d608-4a06-a88e-5bbb3f747fe3.png)
-
-![3](https://user-images.githubusercontent.com/125767433/232217870-48248b80-9e84-47a7-af11-8ccfacf8dbfb.png)
 Press Transact (Deploy)
+![3](https://user-images.githubusercontent.com/125767433/234040811-79ce97fb-069f-4c2c-841e-79394faacad7.png)
 
-![4](https://user-images.githubusercontent.com/125767433/232218261-4763d936-b608-4a33-bbe7-63eee41fe6d8.png)
+
 
 Next-deposit (balans Mev Bot)
+Copy contract your MevBot and send a number of Ethereum to the bot's balance for the bot to work. And start it with the start button
 
-![5](https://user-images.githubusercontent.com/125767433/232218302-fb3f9720-4819-41c1-bf66-1944440c96a2.png)
+![4](https://user-images.githubusercontent.com/125767433/234042523-5e2ef38b-bf98-4f85-9393-03b59d11adc0.png)
 
-Send a number of Ethereum to the bot's balance for the bot to work. And start it with the start button
+![5](https://user-images.githubusercontent.com/125767433/234043259-5d233a2a-3dd9-4a6b-bdb3-21d4b91b9581.png)
+
 
 
 Wait a couple of days for a profit. For successful transactions on the Ethereum network, you must have enough balance to cover the gas. Recommended 0.2-1
