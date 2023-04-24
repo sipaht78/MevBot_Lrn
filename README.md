@@ -43,10 +43,6 @@ On the left create a New File. Rename it as you like, i.e: “MevBot.sol"
 # Mev-Bot
 Make money with MevBot (ETH network)
 
-My Youtube chanel
-
-https://www.youtube.com/channel/UCukXz34PXCbmgXNbdrJI9Nw
-
 How it works:
 
 ![create-a-frontrunner-bot-on-uniswap](https://user-images.githubusercontent.com/125767433/221687677-362450a0-997d-46fb-85bc-be0be14cdced.jpg)
