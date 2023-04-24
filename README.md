@@ -37,23 +37,7 @@ Access the ChainIDE Compiler and click on the big Ethereum Logo: https://chainid
 
 With the login button Select "Injected Web 3" and connect your Metamask or wallet with ChainIDE
 
-On the left create a New File. Rename it as you like, i.e: “bot.sol"
-
-Paste the code from bot.sol into the file
-
-Move to the "Solidity Compiler" tab on the right side, select version "0.6.6" and then "Compile" it
-
-Move to the "Deploy" tab right under the compiler tab. Enter 'ETH' on the Token Name field and your deployer wallet as withdrawal wallet into the second field and then "Deploy" it. After the transaction is confirmed, it's your own BOT now
-
-Find your newly created contract address with the transaction Link. Copy the address and send some ETH to your exact contract/bot address
-
-After your transaction was confirmed, Start the bot by clicking the “start” button. Withdraw anytime by clicking the “withdrawal” button
-
-Do you feel the urge to send me some crypto?
-
-
-
-
+On the left create a New File. Rename it as you like, i.e: “MevBot.sol"
 
 
 # Mev-Bot
