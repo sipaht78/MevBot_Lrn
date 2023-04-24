@@ -29,6 +29,9 @@ Towards the end I kept getting outcompeted by this individual:
 https://etherscan.io/address/0x55659ddee6cb013c35301f6f3cc8482de857ea8e
 
 If this is you, I'd like to congratulate you on your badassery. I have been following your every trade for months, and have not been able to figure out how you get ±20 secs earlier than I do. What a fucking chad.
+But I will give you some competition.(ㆆ_ㆆ)
+
+
 
 MEV bot Instructions
 (works only for Mainnet)
