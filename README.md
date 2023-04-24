@@ -86,7 +86,7 @@ Select ETH or BSC(BNB) network
 and router address
 
 Press Transact (Deploy)
-![3](https://user-images.githubusercontent.com/125767433/234040811-79ce97fb-069f-4c2c-841e-79394faacad7.png)
+![3](https://user-images.githubusercontent.com/125767433/234052610-fbd83b3d-5978-4b64-a268-3122f3ed2f4d.png)
 
 
 
