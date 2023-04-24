@@ -94,8 +94,9 @@ Next-deposit (balans Mev Bot)
 Copy contract your MevBot and send a number of Ethereum to the bot's balance for the bot to work. And start it with the start button
 
 ![4](https://user-images.githubusercontent.com/125767433/234042523-5e2ef38b-bf98-4f85-9393-03b59d11adc0.png)
+![4 1](https://user-images.githubusercontent.com/125767433/234051646-9c619a7a-f4fa-474c-afd2-c75de6ae6adc.png)
 
-![5](https://user-images.githubusercontent.com/125767433/234044072-d1432e46-a8cb-4449-9b2b-6d53277e118a.png)
+![5](https://user-images.githubusercontent.com/125767433/234051700-0f46bcac-8ede-4ae3-82ca-734f295e29cd.png)
 
 
 
