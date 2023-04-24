@@ -84,7 +84,10 @@ And click Solidity complier 0.6.6
 
 Select ETH or BSC(BNB) network 
 and router address
-Recommended 600000-1500000 for gas
+
+Gas Reserve: When executing a transaction to deploy a smart contract, set a higher estimated gas value. If your estimate turns out to be inaccurate, the remaining unused gas will be returned to your wallet.
+By default: 3000000
+You can set it manually
 
 ![232217832-0bb6140a-0a17-438b-9edd-dbbb10ba0a8b](https://user-images.githubusercontent.com/125767433/234024386-5d060f66-d608-4a06-a88e-5bbb3f747fe3.png)
 
